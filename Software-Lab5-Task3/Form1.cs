@@ -21,11 +21,11 @@ namespace Software_Lab5_Task3
                 int b = Convert.ToInt32(ComboBox2.SelectedItem);
                 double result = 0;
                 result = ((a * x) / Math.Abs(z)) + b * y + ((Math.Sin(z)) / (Math.Sqrt(Math.Abs(x * x - y))));
-                this.Text = Convert.ToString($"–езультат: {result}");
+                this.Text = Convert.ToString($"Результат: {result}");
             }
             catch (Exception)
             {
-                Text = "ќшибка";
+                Text = "Ошибка";
             }
         }
 
