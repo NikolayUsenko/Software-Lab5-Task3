@@ -9,7 +9,7 @@ namespace Software_Lab5_Task3
             InitializeComponent();
         }
 
-        #region ќсновна¤ функци¤
+        #region Основная функция
         private void Calculate(ToolStripTextBox TextBox1, ToolStripTextBox TextBox2, ToolStripTextBox TextBox3, ToolStripComboBox ComboBox1, ToolStripComboBox ComboBox2)
         {
             try
@@ -25,13 +25,13 @@ namespace Software_Lab5_Task3
             }
             catch (Exception)
             {
-                Text = "Ошибка";
+                this.Text = "Ошибка";
             }
         }
 
         #endregion
 
-        #region ќбработчики событый
+        #region Обработчики событий
 
         private void Form1_Load(object sender, EventArgs e)
         {
